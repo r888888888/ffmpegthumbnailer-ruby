@@ -10,7 +10,7 @@ USAGE
 
     require 'ffmpegthumbnailer-ruby'
     Ffmpegthumbnailer.resize(source_file_path, dest_file_path, thumbnail_width)
-    Ffmpegthumbnailer.resize("input.swf", "output.swf", 150)
+    Ffmpegthumbnailer.resize("input.swf", "output.jpg", 150)
 
 CAVEATS
 =======
