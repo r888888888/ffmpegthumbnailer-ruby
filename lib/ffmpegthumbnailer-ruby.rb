@@ -1,4 +1,5 @@
 require "ffmpegthumbnailer-ruby/version"
+require "ffmpegthumbnailer"
 
 module Ffmpegthumbnailer
   module Ruby

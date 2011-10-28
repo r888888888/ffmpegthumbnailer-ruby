@@ -23,6 +23,6 @@ static VALUE ffmpegthumbnailer_resize(VALUE module, VALUE source_val, VALUE dest
 }
 
 void Init_ffmpegthumbnailer() {
-  ffmpegthumbnailer_module = rb_define_module("FfmpegThumbnailer");
+  ffmpegthumbnailer_module = rb_define_module("Ffmpegthumbnailer");
   rb_define_module_function(ffmpegthumbnailer_module, "resize", ffmpegthumbnailer_resize, 3);
 }
